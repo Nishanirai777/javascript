@@ -70,3 +70,12 @@ else{
 else if (marks < 30) {
     console.log("F");
 }
+//A good stings is a a strings that starts with the letters a and has lenth >3 then write a; program to find the//
+ //if a string is good or not
+ let str = "le";
+ if(str[0]=== "a" && str.length >  3){
+    console.log("good strings");
+
+ }else{
+    console.log("not a good strings");
+ }
