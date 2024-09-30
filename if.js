@@ -37,7 +37,36 @@ if (marks >= 80) {
 }
 else if (marks >= 75) {
     console.log("A");
+    
 }
+    let size = "XL";
+if(size ==="XL"){
+    console.log("the price is Rs.250");
+
+}
+else if(size === "L"){
+    console.log("the price is Rs.200");
+}
+else if(size === "M"){
+    console.log("the price is Rs.100");
+}
+else {
+    console.log("the price is Rs.50");
+}
+//nested if else 
+let marks= 23;
+if(marks >=30){
+    console.log("pass");
+    if(marks >=80){
+        console.log("grade:0");
+    }else{
+        console.log("grade:A");
+    }
+}
+else{
+    console.log("try again");
+}
+
 else if (marks < 30) {
     console.log("F");
 }
