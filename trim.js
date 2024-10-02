@@ -6,3 +6,7 @@ str.trim();
 let name= "Nishani Kumari rai";
 //name.toLowerCase();
 //name.toUpperCase();
+//index of 
+let msg = "i love codiing";
+//msg.indexOf("g");
+//msg.indexOf("love");
