@@ -12,3 +12,12 @@ num[1][1]//to print the value
 let game =[['x',null,'0'],[null, 'x', '0'],['0',null,'x']];
 game[0][1]//for see the value
 game[0][1]='0'//for remove the null value and add the 0 to null
+
+//check wheather it is blank or 
+ let str= prompt("enter the string.....");
+ if(str.length==0){
+    console.log("string is empty");
+ }
+ else{
+    console.log("string is not empty");
+ }
