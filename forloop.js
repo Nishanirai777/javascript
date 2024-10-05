@@ -3,10 +3,10 @@ for(let i=0;i<=5;i++){
     console.log(i);
 }
 //odd number
-for(let a=0;a<=15;a++){
+for(let a=1;a<=15;a=a+2){
     console.log(a);
 }
 //backward
-for(let b=0;b>=15;b++){
+for(let b=1;b>=15;b=b-2){
     console.log(b);
 }
