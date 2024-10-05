@@ -21,3 +21,4 @@ game[0][1]='0'//for remove the null value and add the 0 to null
  else{
     console.log("string is not empty");
  }
+//hello
