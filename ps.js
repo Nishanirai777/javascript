@@ -1,35 +1,4 @@
-let number =20 ;
-if(number%10 == 0){
-    console.log("good");
-   
-
-}else {
-    console.log("bad");
-}
-let user= prompt("write a user name");
-let age= prompt("enter your age");
-let  msg = user +  " " +  age ;
-alert(msg);
-let quarter =1;
-switch(quarter){
-    case 1:
-        console.log("january ,february,march");
-        break;
-        case 2:
-            console.log("april, may,june");
-            break;
-            case 3:
-                console.log("july ,august ,september");
-                break;
-                case 4:
-                    console.log("november ,october ,december");
-                    break;
-                    default:
-                        console.log("wrong");
-}
-let str = "apples";
-if((str[0]== "a" || str[0]=="A") && str.length>5){
-    console.log("Golden String..");
-}else{
-    console.log("not a golden strings..");
-}
+//for random number generation
+Math.floor(math.random()*10)+1; 
+math.floor(math.random()*5)+1;
+math.floor(math.random()*5)+21;
