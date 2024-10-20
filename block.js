@@ -8,12 +8,12 @@ console.log(a);
     console.log(b);//{}if you write under the this bracket this is the block scope
 }
 //
-for (let i=1; i<=6; i++){
-    console.log(i); 
+for (let i = 1; i <= 6; i++) {
+    console.log(i);
 }
 console.log(i);
-let age =56;
-if(age>=18){
-    let str= "adult";
+let age = 56;
+if (age >= 18) {
+    let str = "adult";
     console.log(str);
 }

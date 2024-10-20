@@ -19,3 +19,11 @@ let avg= (a+b+c)/3;
 console.log(avg);
 }
 calAvg(3,2,10);
+//create a function that prints the multiplication taable of a number
+function mutiTable(n){
+    for(let i=n;i<=n*10; i+=n){
+        console.log(i);
+    }
+
+}
+mutiTable(7);
