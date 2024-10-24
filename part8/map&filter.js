@@ -19,7 +19,7 @@ let student =[
 let gpa = student.map((el)=>{
     return el.marks/10
 });
-//filter
+//filter function
 let nums =[1,2,3,4,5,6,8,9,7];
 let ans =nums.filter((el)=>{
     return el    % 2 ==0;
