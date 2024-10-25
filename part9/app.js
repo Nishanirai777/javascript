@@ -8,3 +8,9 @@ for(let i=0;i<smallImages.length;i++){
 document.getElementsByTagName("p");
 document.getElementsByTagName("p")[1].innerText="abc";
 //use inscept 
+//ouery selectors 
+document.querySelector('p');
+document.querySelector('#myId');
+document.querySelector('.myClass');
+//selects  all p elements 
+document.querySelectorAll("p");
