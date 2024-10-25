@@ -6,5 +6,5 @@ for(let i=0;i<smallImages.length;i++){
 }
 //if you need any change using  getElementByTagName then use this
 document.getElementsByTagName("p");
-ocument.getElementsByTagName("p")[1].innerText="abc";
+document.getElementsByTagName("p")[1].innerText="abc";
 //use inscept 
