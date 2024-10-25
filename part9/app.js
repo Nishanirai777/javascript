@@ -4,3 +4,7 @@ for(let i=0;i<smallImages.length;i++){
     //if you need a src then write this
     console.dir(smallImages[i].src);
 }
+//if you need any change using  getElementByTagName then use this
+document.getElementsByTagName("p");
+ocument.getElementsByTagName("p")[1].innerText="abc";
+//use inscept 
